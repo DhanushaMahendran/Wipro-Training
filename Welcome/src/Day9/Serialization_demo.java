@@ -1,5 +1,9 @@
 package Day9;
 
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
 class Student1{	
 	private int rollno;
 	private String name;
@@ -29,14 +33,14 @@ class Student1{
 		this.name = name;
 	}
 }
-public class  Serialization_demo{
+public class Serialization_demo{
 	public static void main(String[] args) throws IOException {
 		Student1 std1 = new Student1();
 		std1.setRollno(10);
 		std1.setName("Afrid");
 		
 		try{
-			FileOutputStream out = new FileOutputStream("C://Users/Admin/Desktop/javafile.txt");
+			FileOutputStream out = new FileOutputStream("C:\\Users\\Dhanusha\\Wipro-Training.txt");
 			ObjectOutputStream output = new ObjectOutputStream(out);
 			output.writeObject(std1);
 			
