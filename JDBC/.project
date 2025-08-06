@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/Test_Plan_DemoWebShop.docx</name>
+			<type>1</type>
+			<location>C:/Users/Dhanusha/Downloads/Test_Plan_DemoWebShop.docx</location>
+		</link>
+	</linkedResources>
 </projectDescription>
