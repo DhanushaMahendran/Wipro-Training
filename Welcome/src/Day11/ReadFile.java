@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class ReadFile {
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException , ClassNotFoundException {
 		FileReader reader = null;
 		try {
 			reader = new FileReader("C:\\Users\file.txt");
