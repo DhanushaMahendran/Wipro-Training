@@ -12,7 +12,7 @@ public class D_Collections {
 		private double sales;
 		private double expenses;
 		
-		public department(String name,double sales, double exppenses) {
+		public department(String name,double sales, double expenses) {
 			this.name=name;
 			this.sales=sales;
 			this.expenses=expenses;
