@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestDemo1.Application1">
+      <class name="TestDemo1.DataProvider_Practice">
         <methods>
-          <include name="launchGoogle"/>
-          <include name="tearDown"/>
-          <include name="RegisterNewUser"/>
-          <include name="LaunchBrowser"/>
+          <include name="login" invocation-numbers="1"/>
         </methods>
-      </class> <!-- TestDemo1.Application1 -->
+      </class> <!-- TestDemo1.DataProvider_Practice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
